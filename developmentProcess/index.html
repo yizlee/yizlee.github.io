@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>A front-end development process | 弈震的个人博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="前端开发标准化流程工程化 组件化 模块化的开发思想如何在公司中，开发一个项目 1 产品产出需求文档，产品原型 2 阅读文档，梳理需求 3 评审需求 4 最终UI图与交互设计稿 5 详细设计  拆分需求模块，技术选型，调研技术方案（写demo检验技术方案可行性） @important 技术选型多方面因素技术方面：社区是否完整 开源框架（文档 重量级别）人员方面：开发人员对所选技术方案的支持性，适应性">
+<meta name="keywords" content="blog">
+<meta property="og:type" content="article">
+<meta property="og:title" content="A front-end development process">
+<meta property="og:url" content="http://yoursite.com/developmentProcess/index.html">
+<meta property="og:site_name" content="弈震的个人博客">
+<meta property="og:description" content="前端开发标准化流程工程化 组件化 模块化的开发思想如何在公司中，开发一个项目 1 产品产出需求文档，产品原型 2 阅读文档，梳理需求 3 评审需求 4 最终UI图与交互设计稿 5 详细设计  拆分需求模块，技术选型，调研技术方案（写demo检验技术方案可行性） @important 技术选型多方面因素技术方面：社区是否完整 开源框架（文档 重量级别）人员方面：开发人员对所选技术方案的支持性，适应性">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-06-08T04:20:41.109Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="A front-end development process">
+<meta name="twitter:description" content="前端开发标准化流程工程化 组件化 模块化的开发思想如何在公司中，开发一个项目 1 产品产出需求文档，产品原型 2 阅读文档，梳理需求 3 评审需求 4 最终UI图与交互设计稿 5 详细设计  拆分需求模块，技术选型，调研技术方案（写demo检验技术方案可行性） @important 技术选型多方面因素技术方面：社区是否完整 开源框架（文档 重量级别）人员方面：开发人员对所选技术方案的支持性，适应性">
+  
+    <link rel="alternate" href="/atom.xml" title="弈震的个人博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">弈震的个人博客</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">相由心生</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-developmentProcess" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/developmentProcess/" class="article-date">
+  <time datetime="2018-06-08T03:46:35.120Z" itemprop="datePublished">2018-06-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      A front-end development process
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="前端开发标准化流程"><a href="#前端开发标准化流程" class="headerlink" title="前端开发标准化流程"></a>前端开发标准化流程</h2><h6 id="工程化-组件化-模块化的开发思想"><a href="#工程化-组件化-模块化的开发思想" class="headerlink" title="工程化 组件化 模块化的开发思想"></a>工程化 组件化 模块化的开发思想</h6><p>如何在公司中，开发一个项目</p>
+<p>1 产品产出需求文档，产品原型</p>
+<p>2 阅读文档，梳理需求</p>
+<p>3 评审需求</p>
+<p>4 最终UI图与交互设计稿</p>
+<p>5 详细设计  拆分需求模块，技术选型，调研技术方案（写demo检验技术方案可行性）<br> @important 技术选型<br>多方面因素<br>技术方面：社区是否完整 开源框架（文档 重量级别）<br>人员方面：开发人员对所选技术方案的支持性，适应性 上手成本 团队技术积累 所选技术方案一定要成熟 不一定是最新的技术</p>
+<p>6 设计评审（前后端共同评审，探讨方案可行性）</p>
+<p>7 出项目排期</p>
+<p>8 实际开发（搭建项目框架，模拟假数据前后端分离缩短开发时间 实现页面）</p>
+<p>9 自测</p>
+<p>10 联调（用真实接口，真实数据测试）</p>
+<p>11 过冒烟测试</p>
+<p>12 提交测试代码 部署测试环境 测试人员介入</p>
+<p>13 修改bug</p>
+<p>14 部署上线 验证</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/developmentProcess/" data-id="cji5fouzz0000ukjgl83pyvch" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/tools/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">原生js封装的工具库</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">六月 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/developmentProcess/">A front-end development process</a>
+          </li>
+        
+          <li>
+            <a href="/tools/">原生js封装的工具库</a>
+          </li>
+        
+          <li>
+            <a href="/20180606/">第三届（2018）中国智能建筑节</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 liyizhen<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
